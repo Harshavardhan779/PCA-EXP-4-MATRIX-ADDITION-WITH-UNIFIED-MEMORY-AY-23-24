@@ -38,7 +38,7 @@ Allocate Host Memory
 22.	Reset the device using cudaDeviceReset and return from the main function.
 
 ## PROGRAM:
-```python
+```c
 %%writefile matrixadd_w_unifiedmem.cu
 #include <stdio.h>
 #include <cuda_runtime.h>
